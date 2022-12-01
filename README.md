@@ -3,9 +3,9 @@
 <h2>Eu me chamo, Willames.<h2>
 </div>
 <div align="center"> 
-    🔭 Hoje em dia desenvolvo em HTML5, CSS3 E JAVASCRIPT.<br>
+    🔭 Hoje em dia desenvolvo em HTML5, CSS3 E JAVASCRIPT e ReactJs<br>
     🧠 Versiono meus códigos com o Git e Github.<br>
-    🌱 Atualmente estou aprendendo React Native<br>
+    🌱 Atualmente estou aprendendo NextJs, TypeScript, Redux e Banco de Dados(MongoDB, MariaDB, SQL, entre outros)<br>
 </div>
   
 <div align="center">
