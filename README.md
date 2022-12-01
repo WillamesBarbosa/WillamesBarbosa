@@ -6,7 +6,6 @@
     🔭 Hoje em dia desenvolvo em HTML5, CSS3 E JAVASCRIPT.<br>
     🧠 Versiono meus códigos com o Git e Github.<br>
     🌱 Atualmente estou aprendendo React Native<br>
-    ⚡ Fato engraçado: A última coisa que eu esperava da minha vida era ser programador. Hoje sou apaixonado pelo que faço!
 </div>
   
 <div align="center">
@@ -25,8 +24,11 @@
   <img align="center" alt="Will-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Will-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Will-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Will-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <!--<img align="center" alt="Will-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">-->
+  <img align="center" alt="Will-NextJs" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg">
+  <img align="center" alt="Will-Redux" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg">
+  <img align="center" alt="Will-Csharp" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/jest/jest-plain.svg">
+  <img align="center" alt="Will-Csharp" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/storybook/storybook-original.svg">
+  <img align="center" alt="Will-Csharp" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg">
 </div>
   
  ## 
