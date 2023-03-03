@@ -2,9 +2,15 @@
 <h1> Bem-vindo ao repositório!</h1>
 <h2>Eu me chamo, Willames.<h2>
 </div>
+
+``` js
+const minhaArea = () =>{
+                                           console.log('Desenvolvedor Front-End React')
+}
+```
 <div align="center"> 
-    🔭 Hoje em dia desenvolvo em HTML5, CSS3 E JAVASCRIPT e ReactJs<br>
-    🧠 Versiono meus códigos com o Git e Github.<br>
+    🔭 Hoje em dia desenvolvo em Html5, Css3 E Javascript e ReactJs<br>
+    🧠 Focado em desenvolver novos projetos.<br>
     🌱 Atualmente estou aprendendo NextJs, TypeScript, Redux e Banco de Dados(MongoDB, MariaDB, SQL, entre outros)<br>
 </div>
   
