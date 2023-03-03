@@ -5,7 +5,7 @@
 
 ``` js
 const minhaArea = () =>{
-                                           console.log('Desenvolvedor Front-End React')
+                                        console.log('Desenvolvedor Front-End React')
 }
 ```
 <div align="center"> 
