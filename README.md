@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/willamesbarbosa" width="120px" style="border-radius: 50%" alt="Willames Barbosa"/>
-
 # Willames Barbosa
 
 **Desenvolvedor Back-End** · Node.js · PostgreSQL · REST APIs
