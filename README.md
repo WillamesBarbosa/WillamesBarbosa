@@ -16,7 +16,7 @@
 
 Desenvolvedor back-end em transição de carreira, com foco em construir APIs robustas, testáveis e bem estruturadas.
 
-Venho do mundo da gestão — anos liderando operações em varejo, resolvendo problemas sob pressão e tomando decisões com recursos limitados. Esse background moldou minha forma de escrever código: pragmático, responsável e orientado a resultado.
+Venho do mundo da gestão. Um bom tempo liderando decisões no varejo, resolvendo problemas sob pressão e tomando decisões com recursos limitados. Esse background moldou minha forma de escrever código: pragmático, responsável e orientado a resultado.
 ---
 
 ## Stack
