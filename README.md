@@ -17,6 +17,7 @@
 Desenvolvedor back-end em transição de carreira, com foco em construir APIs robustas, testáveis e bem estruturadas.
 
 Venho do mundo da gestão. Um bom tempo liderando decisões no varejo, resolvendo problemas sob pressão e tomando decisões com recursos limitados. Esse background moldou minha forma de escrever código: pragmático, responsável e orientado a resultado.
+
 ---
 
 ## Stack
@@ -31,6 +32,8 @@ Venho do mundo da gestão. Um bom tempo liderando decisões no varejo, resolvend
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Knex](https://img.shields.io/badge/Knex.js-E16426?style=for-the-badge&logo=knex.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 
 </div>
 
@@ -38,38 +41,54 @@ Venho do mundo da gestão. Um bom tempo liderando decisões no varejo, resolvend
 
 ## Projetos
 
-### 🗂️ [Task Manager API](https://github.com/willamesbarbosa/task-manager-api)
-API REST completa para gerenciamento de tarefas, construída com arquitetura em camadas (Controller → Service → Repository).
+### 🗂️ Kron — Task Manager
+
+Sistema completo de gerenciamento de tarefas com kanban interativo. Backend e frontend em produção.
+
+🔗 **[App ao vivo](https://kron-app.vercel.app)** · **[API](https://to-do-list-backend-production-edab.up.railway.app)** · **[Swagger](https://to-do-list-backend-production-edab.up.railway.app/docs)**
+
+---
+
+#### [Kron API — Backend](https://github.com/WillamesBarbosa/kron-api)
+
+API REST completa construída com arquitetura em camadas (Controller → Service → Repository).
 
 **O que tem dentro:**
 - Autenticação JWT com refresh tokens armazenados no Redis, permitindo rotação e invalidação segura de sessões
 - Arquitetura em camadas com separação clara de responsabilidades
 - Testes automatizados com Jest e SQLite in-memory (isolamento por suite)
 - Logging estruturado com Pino — redação de tokens sensíveis, ambiente-aware
+- Rate limiting por rota com Redis como store persistente
+- Soft delete com rastreamento de data de exclusão
 - PostgreSQL em produção via Docker · Migrações com Knex
+- Documentação interativa com Swagger
 - Conventional Commits · Feature branches
 
 **Stack:** Node.js · Express · PostgreSQL · Redis · Jest · Knex · Docker · Pino
 
 #### Decisões técnicas
 
-- Optei por arquitetura em camadas para melhorar testabilidade e isolamento, mesmo aumentando a verbosidade no código
-- Usei Redis para armazenar refresh tokens e permitir revogação imediata
+- Arquitetura em camadas para melhorar testabilidade e isolamento
+- Redis para refresh tokens — revogação imediata no logout
+- Rate limiting diferenciado por rota baseado no nível de risco
 - SQLite in-memory nos testes para garantir isolamento e velocidade
 - Pino para logging estruturado e melhor observabilidade
 
-#### Confiabilidade e tratamento de erros
+---
 
-- Middleware global de tratamento de erros para padronizar respostas da API
-- Separação entre erros operacionais e inesperados
-- Respostas consistentes (status codes + mensagens previsíveis)
-- Evita vazamento de detalhes internos em produção
+#### [Kron App — Frontend](https://github.com/WillamesBarbosa/kron-web)
 
-#### Problemas que resolvi
+Interface kanban com drag and drop e integração completa com a API.
 
-- Evitei inconsistência de respostas criando um padrão global de erros
-- Implementei rotação de refresh tokens para reduzir risco de sessão comprometida
-- Garanti isolamento total nos testes usando banco em memória
+**O que tem dentro:**
+- Drag and drop entre colunas com atualização otimista
+- Interceptor de refresh token automático — transparente pra toda a aplicação
+- Gerenciamento de estado servidor com TanStack Query
+- Proteção de rotas autenticadas
+- Identidade visual própria com tema escuro
+
+**Stack:** React · TypeScript · TanStack Query · dnd-kit · Tailwind · shadcn/ui · Vite
+
 ---
 
 ### 🧮 [Factor Calculator](https://github.com/willamesbarbosa/factor-calculator)
